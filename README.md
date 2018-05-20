@@ -3,4 +3,5 @@
 <a href="https://brandonaxellruiz.ml/Curso/Curso-Basico-de-PHP>
   Visita el curso gratuito PHP por BackHome 
 </a>
-<img src="https://brandonaxellruiz.ml/images/PHP.jpg">
+![texto cualquiera por si no carga la imagen](https://brandonaxellruiz.ml/images/PHP.jpg)
+
