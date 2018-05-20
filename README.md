@@ -1,2 +1,5 @@
-<h1>Bienvenido al Curso Básico de PHP</h1><p> en este repositorio podran encontrar el codigo de cada uno de los capitulos </p>[Visita el curso gratuito PHP por BackHome](https://brandonaxellruiz.ml/Curso/Curso-Basico-de-PHP)
-![PhpLogo](https://brandonaxellruiz.ml/images/PHP.jpg)
+<h1>Bienvenido al Curso Básico de PHP</h1>
+<p> en este repositorio podran encontrar el codigo de cada uno de los capitulos </p> 
+<a href="https://brandonaxellruiz.ml/Curso/Curso-Basico-de-PHP>
+  <img src="https://brandonaxellruiz.ml/images/PHP.jpg">
+Visita el curso gratuito PHP por BackHome </a>
