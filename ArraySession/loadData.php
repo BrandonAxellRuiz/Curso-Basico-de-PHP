@@ -8,10 +8,10 @@
         //echo $_POST['Name'] . $_POST['LastName'] . $_POST['Phone'] . $_POST['Email'] . $_POST['Password'] . $_POST['ConfirmPassword'];
 
         // creamos un arreglo de los valores $_POST para poder usarlo en el ciclo y simplificar nuestro codigo
-        $ArragloPOST = [$_POST['Name'], $_POST['LastName'], $_POST['Phone'], $_POST['Email'], $_POST['Password'], $_POST['ConfirmPassword']];
+        $ArragloPOST = array($_POST['Name'], $_POST['LastName'], $_POST['Phone'], $_POST['Email'], $_POST['Password'], $_POST['ConfirmPassword']);
 
         //creamos un arreglo con el nombre de los campos para posteriormente crear las sesiones con su valor del $_POST
-        $ArragloNameValues = ['Name', 'LastName', 'Phone', 'Email', 'Password', 'ConfirmPassword'];
+        $ArragloNameValues = array('Name', 'LastName', 'Phone', 'Email', 'Password', 'ConfirmPassword');
 
         //validamos que la sesion de la nueva posicion enviada exista o no
         if (isset($_SESSION['Row'])) {
