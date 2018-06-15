@@ -108,7 +108,7 @@
             creamos un array para poder descomponerlo con los nombres de cada uno de los campos que 
             tenemos en nuestro formulario que y que seteamos en las $_SESSION[] y asi mostrarlas
         */
-        $ArragloNameValues = ['#','Name', 'LastName', 'Phone', 'Email', 'Password', 'ConfirmPassword'];
+        $ArragloNameValues = array('#','Name', 'LastName', 'Phone', 'Email', 'Password', 'ConfirmPassword');
         
         /* 
             creamos un ciclo for para poder saber cuanto registro en sesion tenemos creados 
