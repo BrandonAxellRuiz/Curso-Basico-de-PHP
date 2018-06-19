@@ -108,7 +108,7 @@
             creamos un array para poder descomponerlo con los nombres de cada uno de los campos que 
             tenemos en nuestro formulario que y que seteamos en las $_SESSION[] y asi mostrarlas
         */
-        $ArragloNameValues = array('#','Name', 'LastName', 'Phone', 'Email', 'Password', 'ConfirmPassword');
+        $ArragloNameValues = ['#','Name', 'LastName', 'Phone', 'Email', 'Password', 'ConfirmPassword', 'Delete'];
         
         /* 
             creamos un ciclo for para poder saber cuanto registro en sesion tenemos creados 
@@ -178,7 +178,13 @@
                      */
                     echo '<td>' . $_SESSION[$ArragloNameValues[$i] . $im] . '</td>';
                     
-
+                    if($i == 7){
+                        echo '
+                            <td>
+                                <a class="btn btn-danger" href="deleteData.php?id='.$im.'">Eliminar</a>
+                            </td>';
+                    }
+                    
                     /*
                         descomenta esta linea y la de 
                         echo json_encode($arr)
@@ -187,8 +193,10 @@
                     //$arr[$im][$i] = $_SESSION[$ArragloNameValues[$i] . $im];
             
                 }
-                
+
+              
             }
+            
             //finalizamos el cuerpo de la tabla
             echo '</tbody>';
             
